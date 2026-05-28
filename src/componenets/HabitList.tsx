@@ -12,7 +12,7 @@ export function HabitList({visibleDates}:HabitList ) {
 
   if (habits?.length === 0) {
     return (
-      <div className="text-center text-zinc-300 py-12">
+      <div className="text-center text-zinc-500 italic py-12">
         No habbits yet. Add one above to get started.
       </div>
     );
